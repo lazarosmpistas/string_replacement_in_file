@@ -20,6 +20,7 @@ def main(old_path, new_path, str_to_replace, new_str):
 
     with open(new_p, "w") as f:
         f.write(string)
+        print(f"your new file is at {new_p}")
 
 if __name__ == "__main__":
     if len(sys.argv) != 5 :
